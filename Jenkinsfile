@@ -1,9 +1,12 @@
 pipeline {
     agent any
     stages {
-        stage('Hello') {
+        stage('检查环境') {
             steps {
-                echo 'Hello World'
+                sh '''java -version
+                mvn -v
+                git version
+                docker -v'''
             }
         }
     }
