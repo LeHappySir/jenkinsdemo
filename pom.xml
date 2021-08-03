@@ -14,9 +14,7 @@
     <name>jenkinsdemo</name>
     <description>Demo project for Spring Boot</description>
     <properties>
-        <java.version>11</java.version>
-        <mybatispluins.version>3.3.2</mybatispluins.version>
-        <mysql.version>5.1.47</mysql.version>
+        <java.version>8</java.version>
     </properties>
     <dependencies>
         <dependency>
